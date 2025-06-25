@@ -1,4 +1,4 @@
-Here’s a polished and professional version of your README snippet for GitHub:
+Here’s your updated and refined version of the README snippet with the new instructions included:
 
 ---
 
@@ -17,5 +17,24 @@ Here’s a polished and professional version of your README snippet for GitHub:
    ```js
    const steamId = 'YOUR_STEAM_ID64_HERE'; // Replace with actual SteamID64
    ```
+
+3. **Run the Project**
+
+   * For development:
+
+     ```bash
+     npm run dev
+     ```
+   * For production:
+
+     ```bash
+     npm start
+     ```
+
+     or
+
+     ```bash
+     npm run start
+     ```
 
 ---
