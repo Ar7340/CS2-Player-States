@@ -1,20 +1,27 @@
 {
-  "name": "twst",
+  "name": "cs2-stats-scraper",
   "version": "1.0.0",
-  "main": "inedx.js",
+  "description": "CS2 Stats Scraper with MySQL Database",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "Start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
   },
-  "keywords": [],
-  "author": "Ar7340",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "axios": "^1.10.0",
-    "fs": "^0.0.1-security",
-    "node-fetch": "^3.3.2",
-    "puppeteer": "^24.10.2"
+    "dotenv": "^16.5.0",
+    "mysql2": "^3.14.1",
+    "puppeteer": "^21.11.0"
   },
-  "type": "module"
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "keywords": [
+    "cs2",
+    "scraper",
+    "mysql",
+    "puppeteer"
+  ],
+  "author": "Ar7340",
+  "license": "MIT"
 }
