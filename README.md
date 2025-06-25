@@ -1,7 +1,3 @@
-Here’s your updated and refined version of the README snippet with the new instructions included:
-
----
-
 ## 🚀 Getting Started
 
 1. **Install Dependencies**
@@ -36,5 +32,3 @@ Here’s your updated and refined version of the README snippet with the new ins
      ```bash
      npm run start
      ```
-
----
