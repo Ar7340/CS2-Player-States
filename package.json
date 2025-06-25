@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "main": "inedx.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index.js"
+    "Start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ar7340",
   "license": "ISC",
   "description": "",
   "dependencies": {
