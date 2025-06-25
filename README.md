@@ -1,7 +1,3 @@
-Here’s a professionally **updated version** of your README with minor improvements, clarified sections, and your earlier request fully integrated:
-
----
-
 # 🎮 CS2 Stats Scraper - Database Edition
 
 A powerful Node.js application that scrapes **Counter-Strike 2** player statistics from [csgostats.gg](https://csgostats.gg) and stores them in a **MySQL database**, optimized for high performance and clean resource management.
@@ -98,7 +94,7 @@ created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/Ar7340/CS2-Player-States.git
 cd cs2-stats-scraper
 
 # Install dependencies
@@ -168,15 +164,6 @@ Run the app, then type:
 
 ---
 
-## ➕ Adding Steam IDs
-
-### Through CLI:
-
-```
-Enter command: add
-Enter Steam ID(s) (comma-separated): 76561198000000001,76561198000000002
-```
-
 ### Programmatically:
 
 ```sql
@@ -242,18 +229,6 @@ Enter command: reset
 * Ensure MySQL server is running
 * Check `.env` values
 * Confirm the database and tables are created
-
-### Scraping Timeouts
-
-* Increase `SCRAPER_TIMEOUT` in `.env`
-* Check internet connection
-* Test access to csgostats.gg
-
-### Rate Limiting
-
-* Raise delay in `DELAY_BETWEEN_REQUESTS`
-* Reduce `BATCH_SIZE`
-* Use VPN if IP is temporarily blocked
 
 ---
 
