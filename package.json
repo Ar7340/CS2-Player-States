@@ -9,7 +9,7 @@
     "dev": "node --watch src/index.js"
   },
   "dependencies": {
-    "dotenv": "^16.5.0",
+    "dotenv": "^17.2.0",
     "mysql2": "^3.14.1",
     "puppeteer": "^21.11.0"
   },
